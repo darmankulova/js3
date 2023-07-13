@@ -1,7 +1,7 @@
 // user admin true welcome, 'user'
 // false not correct user
 // function chekUser(user){
-//     if (user==='admin'){
+//     if (user === 'admin'){
 //         return 'welcome'
 //     }else {
 //         return 'false not correct user'
@@ -15,10 +15,10 @@
 // on february only 28 day, your day is 'day' of another month
 
 // function monthDay(day){
-//     if (day <= 1 || day >= 28){
+//     if (day >= 1 && day <= 28){
 //         return `today is ${day} of february`
 //     }else {
-//         return 'on february only 28 day, your day is \'day\' of another month'
+//         return `on february only 28 day, your day is ${day} of another month`
 //     }
 // }
 //
@@ -29,7 +29,7 @@
 // 'num' is not correct
 
 // function numFunction(num){
-//     if (num===50 ){
+//     if (num === 50 ){
 //         return ` ${num} is equal of 50 `
 //     }else {
 //         return `${num} is not correct`
@@ -42,7 +42,7 @@
 // 'user' 'age' old, welcome
 // 'user' 'age' old, rejected
 //  function infoUser(user,age){
-//     if (user==='Nurperi', age >=18){
+//     if (user === 'Nurperi', age >= 18){
 //        return ` ${user} welcome`
 //     }else {
 //         return 'rejected'
@@ -70,7 +70,7 @@
 //TASK
 //'age' must be a number ('20')
 // function age(num){
-//     if (typeof num == "number" ){
+//     if (typeof num === "number" ){
 //         return `your age ${num}  `
 //     }else {
 //         return `${num} must be a number`
@@ -82,7 +82,7 @@
 //TASK
 // 'age' must be a string (20)
 // function userAge(age){
-//     if ( typeof age == "string"){
+//     if ( typeof age === "string"){
 //         return `your age ${age}`
 //     }else {
 //         return 'must be string'
@@ -95,7 +95,7 @@
 // 'age' must be older then 23
 
 // function olderNum(age){
-//     if (age>23){
+//     if (age > 23){
 //         return `your age ${age}`
 //     }else {
 //         return  'must be older then 23'
