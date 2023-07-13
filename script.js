@@ -118,7 +118,7 @@
 //         return 'today is thursday'
 //     } else if(day === 5){
 //         return 'today is friday'
-//     } else if(day === 6,7){
+//     } else if(day === 6 && day === 7){
 //         return 'today is weekend'
 //     }else {
 //         return 'max days of weeks 7'
